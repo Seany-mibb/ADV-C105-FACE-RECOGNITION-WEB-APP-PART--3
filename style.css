@@ -1,0 +1,31 @@
+body{
+    background-image: linear-gradient(to top, #fa985a, #ccb150, #98c16e, #45cccc,  #65ca9e);
+    font-family: 'Merienda', cursive;
+}
+
+         
+.btn-grad {
+    background-image: linear-gradient(to right, #32be61 0%, #F09819  51%, #6a5fff  100%);
+    margin: 10px;
+    padding: 15px 30px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+  .heading{
+      width:80%;
+      font-size: 25px;
+      font-family: 'Macondo', cursive;
+  }
